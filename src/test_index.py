@@ -1,6 +1,5 @@
 import pytest
 import index
-import demo
 
 def test_uncovered_if():
     assert index.uncovered_if() == False
