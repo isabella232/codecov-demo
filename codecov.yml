@@ -2,7 +2,7 @@ coverage:
   status:
     project:
       default:
-        target: auto
+        target: 70%
         threshold: null
       index:
         flags: index
