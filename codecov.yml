@@ -4,6 +4,12 @@ coverage:
       default:
         target: auto
         threshold: null
+      index:
+        flags: index
+        target: 75%
+      demo:
+        flags: demo
+        target: 80%
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
@@ -11,6 +17,13 @@ comment:
   require_base: no        
   require_head: yes       
   branches: null
+
+flags:
+  demo:
+    paths:
+      - /src/demo.py
+  index:
+      - /src/index.py
 
 ignore:
   - "request.py"
