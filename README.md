@@ -1,6 +1,6 @@
 # Codecov-Demo
 
-[![Build Status](https://travis-ci.org/codecov/codecov-demo.svg?branch=master)](https://travis-ci.org/codecov/Python-Standard) [![codecov](https://codecov.io/gh/codecov/codecov-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/Python-Standard)
+[![Build Status](https://travis-ci.org/codecov/codecov-demo.svg?branch=master)](https://travis-ci.org/codecov/Python-Standard) [![codecov](https://codecov.io/gh/codecov/codecov-demo/branch/master/graph/badge.svg)](https://codecov.io/gh/codecov/codecov-demo)
 
 ## What is this?
 
