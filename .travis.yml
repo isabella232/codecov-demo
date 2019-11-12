@@ -4,5 +4,7 @@ install:
   - pip install pytest-cov
   - pip install requests
 script:
-  - pytest --cov=./ --cov-report=xml
-  - bash <(curl https://codecov.io/bash)
+  - pytest --cov=./ --cov-report=xml src/test_index.py 
+  - bash <(curl https://codecov.io/bash) -F index
+  - pytest --cov=./ --cov-report=xml src/test_demo.py 
+  - bash <(curl https://codecov.io/bash) -F demo
