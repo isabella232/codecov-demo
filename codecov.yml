@@ -23,6 +23,7 @@ flags:
     paths:
       - src/demo.py
   index:
+    paths:
       - src/index.py
 
 ignore:
