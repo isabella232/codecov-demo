@@ -21,9 +21,9 @@ comment:
 flags:
   demo:
     paths:
-      - /src/demo.py
+      - src/demo.py
   index:
-      - /src/index.py
+      - src/index.py
 
 ignore:
   - "request.py"
