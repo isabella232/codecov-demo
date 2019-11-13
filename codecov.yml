@@ -6,7 +6,7 @@ coverage:
         threshold: null
       index:
         flags: index
-        target: 70%
+        target: 75%
       demo:
         flags: demo
         target: 80%
